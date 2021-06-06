@@ -20,7 +20,7 @@ ${answers.description}
 
     * [License](#License)
 
-    * [Contributing](#Contributing)
+    * [Contributing](#Contributions)
     
     * [Tests](#Tests)
     
@@ -36,7 +36,7 @@ ${answers.usage}
 ${answers.license}
 
 ## Contributing
-${answers.contributing}
+${answers.contributions}
 
 ## Tests
 ${answers.tests}
@@ -100,7 +100,7 @@ inquirer
 .then((answers) => {
     console.log(answers);
     const mdPageContent = generateReadMe(answers);
-    fs.writeFile('./assets/readMe.md', mdPageContent, (err) => err ? console.log(err) : console.log('great success'));
+    fs.writeFile('readMe.md', mdPageContent, (err) => err ? console.log(err) : console.log('great success'));
 })
 
 .catch((error) => {

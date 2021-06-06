@@ -3,7 +3,7 @@
 ![Github License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-This project will allow users to fill out a quality readme file using the terminal
+Uses can use the terminal to write a readme file for their projects.
 
 
 ## Table of Contents
@@ -14,26 +14,26 @@ This project will allow users to fill out a quality readme file using the termin
 
     * [License](#License)
 
-    * [Contributing](#Contributing)
+    * [Contributing](#Contributions)
     
     * [Tests](#Tests)
     
     * [Questions](#Questions)
 
 ## Installation
-The user can write the command line npm install inquirer and then node index to invoke the application
+Run npm install inquired in the terminal and then run node index
 
 ## Usage
-For professionals who want to quickly develop an efficient readme file
+For users who want to quickly develop an effective readme file for their project
 
 ## License
 MIT
 
 ## Contributing
-undefined
+None
 
 ## Tests
-npm test index.js in the command line
+npm test index
 
 ## Questions
 For additional information please contact me via GitHub at [https://github.com/trevorwiegand92](https://github.com/trevorwiegand92) or via email at [trevorwiegand92@gmail.com](mailto:trevorwiegand92@gmail.com?subject=[GitHub]%README%Generator).
