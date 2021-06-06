@@ -27,23 +27,23 @@ When the user is prompted for information about the application repository, a hi
     * [Questions](#Questions)
 
 ## Installation
-${answers.installation}
+To install this application in the terminal run the command npm install inquirer, and then to invoke the application run the command node index.js.
 
 ## Usage
-${answers.usage}
+Users can utilize this application to create a readme file by entering criteria when prompted.
 
 ## License
-${answers.license}
+The user can chose which license they wish to use.  In this application's case, it is using MIT.
 
 ## Contributing
-${answers.contributions}
+This is an open project and allows any user to contribute if they wish.
 
 ## Tests
-${answers.tests}
+To run a test on this application, users can write the command npm test in the terminal.
 
 ## Questions
 For additional information please contact me via GitHub at [https://github.com/${answers.github}](https://github.com/${answers.github}) or via email at [${answers.email}](mailto:${answers.email}?subject=[GitHub]%README%Generator).`
-};
+
 
 Github Repository URL: 
 
