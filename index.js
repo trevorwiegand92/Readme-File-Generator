@@ -51,7 +51,7 @@ inquirer
 
     {
         type: 'input',
-        name: 'Title of Project',
+        name: 'title',
         message: 'What is the title of your Project?',
     },
     {
