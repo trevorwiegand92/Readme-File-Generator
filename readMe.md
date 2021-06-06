@@ -42,7 +42,7 @@ This is an open project and allows any user to contribute if they wish.
 To run a test on this application, users can write the command npm test in the terminal.
 
 ## Questions
-For additional information please contact me via GitHub at [https://github.com/${answers.github}](https://github.com/${answers.github}) or via email at [${answers.email}](mailto:${answers.email}?subject=[GitHub]%README%Generator).`
+For additional information please contact me via GitHub at [https://github.com/trevorwiegand92}](https:/or via email at [trevorwiegand92@gmail.com]
 
 
 Github Repository URL: 
