@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/trevorwiegand92/Readme-File-Generator/issues"
   },
-  "homepage": "https://github.com/trevorwiegand92/Readme-File-Generator#readme"
+  "homepage": "https://github.com/trevorwiegand92/Readme-File-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.0"
+  }
 }
