@@ -1,10 +1,16 @@
-# undefined
+Finished homework assignment for week nine. Creating a professional readme generator.
 
-![Github License](https://img.shields.io/badge/License-MIT-yellow.svg)
+NAME: Readme File Generator
 
-## Description
-Uses can use the terminal to write a readme file for their projects.
+The objective of this assignment was to create a quality README using a command-line application to generate one for the user, allowing more devotion to the creator to work on the project. 
 
+The command-line application dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). The application is invoked by using the following command:
+
+```bash
+node index.js
+```
+
+When the user is prompted for information about the application repository, a high-quality, professional README.md is generated with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
 ## Table of Contents
 
@@ -21,19 +27,29 @@ Uses can use the terminal to write a readme file for their projects.
     * [Questions](#Questions)
 
 ## Installation
-Run npm install inquired in the terminal and then run node index
+${answers.installation}
 
 ## Usage
-For users who want to quickly develop an effective readme file for their project
+${answers.usage}
 
 ## License
-MIT
+${answers.license}
 
 ## Contributing
-None
+${answers.contributions}
 
 ## Tests
-npm test index
+${answers.tests}
 
 ## Questions
-For additional information please contact me via GitHub at [https://github.com/trevorwiegand92](https://github.com/trevorwiegand92) or via email at [trevorwiegand92@gmail.com](mailto:trevorwiegand92@gmail.com?subject=[GitHub]%README%Generator).
+For additional information please contact me via GitHub at [https://github.com/${answers.github}](https://github.com/${answers.github}) or via email at [${answers.email}](mailto:${answers.email}?subject=[GitHub]%README%Generator).`
+};
+
+Github Repository URL: 
+
+https://github.com/trevorwiegand92/Readme-File-Generator
+
+
+Walkthrough video:
+
+

@@ -100,7 +100,7 @@ inquirer
 .then((answers) => {
     console.log(answers);
     const mdPageContent = generateReadMe(answers);
-    fs.writeFile('readMe.md', mdPageContent, (err) => err ? console.log(err) : console.log('great success'));
+    fs.writeFile('./assets/readMe.md', mdPageContent, (err) => err ? console.log(err) : console.log('great success'));
 })
 
 .catch((error) => {
