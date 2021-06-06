@@ -2,8 +2,50 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 const generateReadMe = (answers) => {
+    const license = responses.license === "none" ? "" : responses.license;
+    const licenseBadge = responses.license === "none" ? null : `![Github License](https://img.shields.io/badge/License-${license}-yellow.svg)`
+    return `# ${responses.title}
 
-}
+${licenseBadge}
+
+## Description
+${responses.description}
+
+
+## Table of Contents
+
+    * [Installation](#Installation)
+
+    * [Usage](#Usage)
+
+    * [License](#License)
+
+    * [Contributing](#Contributing)
+    
+    * [Tests](#Tests)
+    
+    * [Questions](#Questions)
+
+## Installation
+${responses.installation}
+
+## Usage
+${responses.usage}
+
+## License
+${responses.license}
+
+## Contributing
+${responses.contributing}
+
+## Tests
+${responses.tests}
+
+## Questions
+For additional information please contact me via GitHub at [https://github.com/${responses.github}](https://github.com/${responses.github}) or via email at [${responses.email}](mailto:${responses.email}?subject=[GitHub]%README%Generator).`
+};
+
+
 inquirer
   .prompt([
 
@@ -28,30 +70,30 @@ inquirer
         message: 'Provide examples of how and what your project will be used for.',
     },
     {
-      type: 'input',
-      name: 'license',
-      message: 'Chose a license for your project.',
-      choices: ['MIT', 'WTFPL', 'ISC','Unlicense' ],
+        type: 'input',
+        name: 'license',
+        message: 'Chose a license for your project.',
+        choices: ['MIT', 'WTFPL', 'ISC','Unlicense' ],
     },
     {
-      type: 'input',
-      name: 'contributions',
-      message: 'If you are allowing others to contribute to your project, provide guidelines for contributors here.',
+        type: 'input',
+        name: 'contributions',
+        message: 'If you are allowing others to contribute to your project, provide guidelines for contributors here.',
     },
     {
-      type: 'input',
-      name: 'tests',
-      message: 'Describe how to run tests on your application.',
+        type: 'input',
+        name: 'tests',
+        message: 'Describe how to run tests on your application.',
     },
     {
-      type: 'input',
-      name: 'github',
-      message: 'Enter your github username. ',
+        type: 'input',
+        name: 'github',
+        message: 'Enter your github username. ',
     },
     {
-      type: 'input',
-      name: 'email',
-      message: 'Enter your email address. ',
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address. ',
     },
 ])
 
