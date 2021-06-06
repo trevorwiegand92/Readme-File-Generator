@@ -42,7 +42,7 @@ This is an open project and allows any user to contribute if they wish.
 To run a test on this application, users can write the command npm test in the terminal.
 
 ## Questions
-For additional information please contact me via GitHub at [https://github.com/trevorwiegand92}](https:/or via email at [trevorwiegand92@gmail.com]
+For additional information please contact me via GitHub at https://github.com/trevorwiegand92 or via email at trevorwiegand92@gmail.com
 
 
 Github Repository URL: 
