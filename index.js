@@ -2,14 +2,14 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 const generateReadMe = (answers) => {
-    const license = responses.license === "none" ? "" : responses.license;
-    const licenseBadge = responses.license === "none" ? null : `![Github License](https://img.shields.io/badge/License-${license}-yellow.svg)`
-    return `# ${responses.title}
+    const license = answers.license === "none" ? "" : answers.license;
+    const licenseBadge = answers.license === "none" ? null : `![Github License](https://img.shields.io/badge/License-${license}-yellow.svg)`
+    return `# ${answers.title}
 
 ${licenseBadge}
 
 ## Description
-${responses.description}
+${answers.description}
 
 
 ## Table of Contents
@@ -27,22 +27,22 @@ ${responses.description}
     * [Questions](#Questions)
 
 ## Installation
-${responses.installation}
+${answers.installation}
 
 ## Usage
-${responses.usage}
+${answers.usage}
 
 ## License
-${responses.license}
+${answers.license}
 
 ## Contributing
-${responses.contributing}
+${answers.contributing}
 
 ## Tests
-${responses.tests}
+${answers.tests}
 
 ## Questions
-For additional information please contact me via GitHub at [https://github.com/${responses.github}](https://github.com/${responses.github}) or via email at [${responses.email}](mailto:${responses.email}?subject=[GitHub]%README%Generator).`
+For additional information please contact me via GitHub at [https://github.com/${answers.github}](https://github.com/${answers.github}) or via email at [${answers.email}](mailto:${answers.email}?subject=[GitHub]%README%Generator).`
 };
 
 
