@@ -52,4 +52,6 @@ https://github.com/trevorwiegand92/Readme-File-Generator
 
 Walkthrough video:
 
+https://drive.google.com/file/d/1r7qOnUcR1eXcJgN97Xpeyaxni63dfEgw/view
+
 

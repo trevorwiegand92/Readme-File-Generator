@@ -2,11 +2,8 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 const generateReadMe = (answers) => {
-    const license = answers.license === "none" ? "" : answers.license;
-    const licenseBadge = answers.license === "none" ? null : `![Github License](https://img.shields.io/badge/License-${license}-yellow.svg)`
     return `# ${answers.title}
 
-${licenseBadge}
 
 ## Description
 ${answers.description}
@@ -105,9 +102,9 @@ inquirer
 
 .catch((error) => {
     if (error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
+
     } else {
-      // Something else went wrong
+
     }
 });
 
